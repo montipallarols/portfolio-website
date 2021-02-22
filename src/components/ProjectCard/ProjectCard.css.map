@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,gBAAgB,EGAJ,OAAO;CHCpB;;AAED,AAAA,UAAU,CAAC;EACT,gBAAgB,EGFJ,OAAO;CHGpB;;AAED,AAAA,KAAK,CAAC;EACJ,gBAAgB,EGTF,OAAO;CHUtB",
+    "sources": [
+        "ProjectCard.scss",
+        "../../scss/style.scss",
+        "../../scss/variables/_variables.scss",
+        "../../scss/variables/_colours.scss",
+        "../../scss/mixins/_mixins.scss"
+    ],
+    "names": [],
+    "file": "ProjectCard.css"
+}

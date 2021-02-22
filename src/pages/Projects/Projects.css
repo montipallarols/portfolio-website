@@ -1,5 +1,22 @@
+.projects-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .projects-section h2 {
   font-size: 7em;
   margin: 120px;
+}
+
+.projects-section .project-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 /*# sourceMappingURL=Projects.css.map */
