@@ -1,12 +1,12 @@
 .slacker {
-  background-color: #fed1bf;
+  background-color: #fed1bf !important;
 }
 
 .greenshop {
-  background-color: #87f9d4;
+  background-color: #00c081 !important;
 }
 
 .help {
-  background-color: #fd8a81;
+  background-color: #fd8a81 !important;
 }
 /*# sourceMappingURL=ProjectCard.css.map */

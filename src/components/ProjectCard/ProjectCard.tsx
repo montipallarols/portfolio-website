@@ -11,7 +11,7 @@ interface Props {
 export default function ProjectCard(props: Props) {
   return (
     <div>
-      <Card style={{ width: "18rem" }} className={props.class}>
+      <Card className={props.class}>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
 

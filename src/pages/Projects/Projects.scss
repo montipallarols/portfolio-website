@@ -6,11 +6,12 @@
 
   h2 {
     font-size: $font-size-h2;
-    margin: 120px;
+    margin: 120px 120px 0;
   }
 
   .project-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0 120px;
   }
 }
