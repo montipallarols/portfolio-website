@@ -10,8 +10,20 @@ interface Props {
 
 export default function ProjectCard(props: Props) {
   return (
-    <div>
-      <Card className={props.class}>
+    <div className={props.class}>
+      <div className="card-content">
+        <h4>{props.title}</h4>
+        <p>{props.content}</p>
+        <a href="#">Github</a>
+        <a href="#">Website</a>
+      </div>
+    </div>
+  );
+}
+
+{
+  /* <div className={props.class}>
+      <Card>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
 
@@ -20,6 +32,5 @@ export default function ProjectCard(props: Props) {
           <Card.Link href="#">Website</Card.Link>
         </Card.Body>
       </Card>
-    </div>
-  );
+    </div> */
 }

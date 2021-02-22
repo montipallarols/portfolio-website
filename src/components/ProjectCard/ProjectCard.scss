@@ -1,13 +1,35 @@
 @import "../../scss/style.scss";
 
 .slacker {
-  background-color: $pastel-pink !important;
+  background-color: $beige;
+  grid-column: 1/3;
+  h4,
+  p {
+    color: $dark-green;
+  }
 }
 
 .greenshop {
-  background-color: $bright-green !important;
+  background-color: $bright-green;
+  h4,
+  p {
+    color: $beige;
+  }
 }
 
 .help {
-  background-color: $pastel-orange !important;
+  background-color: $light-green;
+  h4,
+  p {
+    color: black;
+  }
+}
+
+.card-content {
+  padding: 70px;
+
+  a {
+    margin-left: 0;
+    margin-right: 20px;
+  }
 }

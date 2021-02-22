@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,KAAK;CACxB",
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACN,gBAAgB,EGSC,OAAO;CHRzB",
     "sources": [
-        "Navigation.scss"
+        "Navigation.scss",
+        "../../scss/style.scss",
+        "../../scss/variables/_variables.scss",
+        "../../scss/variables/_colours.scss",
+        "../../scss/mixins/_mixins.scss"
     ],
     "names": [],
     "file": "Navigation.css"
