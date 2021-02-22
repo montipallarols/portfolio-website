@@ -5,7 +5,7 @@ import NavbarItem from "./NavbarItem";
 
 export default function Navigation() {
   return (
-    <Navbar expand="lg" sticky="top" className="navbar">
+    <Navbar expand="lg" className="navbar">
       <Navbar.Brand as={NavLink} to="/">
         M.
       </Navbar.Brand>

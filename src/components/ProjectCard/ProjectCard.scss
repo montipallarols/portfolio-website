@@ -1,27 +1,28 @@
 @import "../../scss/style.scss";
 
 .slacker {
-  background-color: $beige;
+  background-color: $pastel-pink;
   grid-column: 1/3;
+
   h4,
   p {
-    color: $dark-green;
+    color: black;
   }
 }
 
 .greenshop {
-  background-color: $bright-green;
-  h4,
-  p {
-    color: $beige;
-  }
-}
-
-.help {
   background-color: $light-green;
   h4,
   p {
     color: black;
+  }
+}
+
+.help {
+  background-color: $pastel-orange;
+  h4,
+  p {
+    color: $beige;
   }
 }
 
