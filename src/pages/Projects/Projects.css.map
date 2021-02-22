@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,iBADe,CACf,EAAE,CAAC;EACD,SAAS,EEFE,GAAG;EFGd,MAAM,EAAE,KAAK;CACd",
+    "sources": [
+        "Projects.scss",
+        "../../scss/style.scss",
+        "../../scss/variables/_variables.scss",
+        "../../scss/variables/_colours.scss",
+        "../../scss/mixins/_mixins.scss"
+    ],
+    "names": [],
+    "file": "Projects.css"
+}

@@ -1,5 +1,26 @@
-$background-color: #f4efeb;
+@import "../../scss/style.scss";
 
 .home {
-  margin: 30px;
+  // background-color: $beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile {
+  margin: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  img {
+    padding-left: 60px;
+  }
+
+  .profile-text {
+    text-align: left;
+
+    h2 {
+      font-size: $font-size-h2;
+    }
+  }
 }

@@ -1,10 +1,8 @@
-$background-beige: #f4efeb;
-$background-pink: #fed1bf;
+// $beige: #f2f1ed;
+// $orange-red: #dd7962;
 
 * {
-  background-color: $background-beige;
-}
-
-.App {
-  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
