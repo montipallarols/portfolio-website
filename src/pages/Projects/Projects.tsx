@@ -7,16 +7,20 @@ export default function Projects() {
     <div className="projects">
       <div className="projects-section">
         <h2>projects.</h2>
-        <div className="project-cards">
-          {projects.map((p) => {
-            return (
-              <ProjectCard
-                class={p.class}
-                title={p.title}
-                content={p.content}
-              />
-            );
-          })}
+        <div className="project-cards-container">
+          <div className="project-cards">
+            {projects.map((p) => {
+              return (
+                <ProjectCard
+                  class={p.class}
+                  title={p.title}
+                  content={p.content}
+                  image={p.image}
+                  height={p.height}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

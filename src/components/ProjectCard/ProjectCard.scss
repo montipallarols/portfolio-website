@@ -1,42 +1,44 @@
 @import "../../scss/style.scss";
 
 .slacker {
-  // background-color: $pastel-pink;
-  border-radius: 20px;
-  border: 1px solid grey;
+  background-color: $beige-pink;
+  text-align: center;
+  // border-radius: 10px;
+  // border: 1px solid grey;
   grid-column: 1/2;
   h4,
   p {
-    color: black;
+    color: white;
   }
 }
 
 .greenshop {
-  // background-color: $light-green;
-  border-radius: 20px;
-  border: 1px solid grey;
+  background-color: $earth-green;
+  text-align: center;
+  // border-radius: 10px;
+  // border: 1px solid grey;
   grid-column: 2/3;
-  grid-row: 2/3;
   h4,
   p {
-    color: black;
+    color: white;
   }
 }
 
 .help {
-  // background-color: $pastel-orange;
-  border-radius: 20px;
-  border: 1px solid grey;
+  background-color: $blue-green;
+  text-align: center;
+  // border-radius: 10px;
+  // border: 1px solid grey;
   grid-column: 1/2;
-  grid-row: 3/3;
+  grid-row: 2/3;
   h4,
   p {
-    color: black;
+    color: white;
   }
 }
 
 .card-content {
-  padding: 70px;
+  padding: 60px;
 
   a {
     margin-left: 0;

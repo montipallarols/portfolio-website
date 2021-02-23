@@ -1,6 +1,6 @@
 .slacker {
-  border-radius: 20px;
-  border: 1px solid grey;
+  background-color: #f1ebe7;
+  text-align: center;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
@@ -8,42 +8,40 @@
 
 .slacker h4,
 .slacker p {
-  color: black;
+  color: white;
 }
 
 .greenshop {
-  border-radius: 20px;
-  border: 1px solid grey;
+  background-color: #bccbb9;
+  text-align: center;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
+}
+
+.greenshop h4,
+.greenshop p {
+  color: white;
+}
+
+.help {
+  background-color: #c9e3dd;
+  text-align: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
 }
 
-.greenshop h4,
-.greenshop p {
-  color: black;
-}
-
-.help {
-  border-radius: 20px;
-  border: 1px solid grey;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  -ms-grid-row: 3;
-  grid-row: 3/3;
-}
-
 .help h4,
 .help p {
-  color: black;
+  color: white;
 }
 
 .card-content {
-  padding: 70px;
+  padding: 60px;
 }
 
 .card-content a {

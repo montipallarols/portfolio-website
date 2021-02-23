@@ -5,6 +5,8 @@ interface Props {
   title: string;
   content: string;
   class: string;
+  image: string;
+  height: string;
   // tech: Array<string>;
 }
 
@@ -14,8 +16,9 @@ export default function ProjectCard(props: Props) {
       <div className="card-content">
         <h4>{props.title}</h4>
         <p>{props.content}</p>
-        <a href="#">Github</a>
-        <a href="#">Website</a>
+        <img src={props.image} alt="project" height={props.height} />
+        {/* <a href="#">Github</a>
+        <a href="#">Website</a> */}
       </div>
     </div>
   );

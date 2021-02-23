@@ -1,3 +1,16 @@
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .projects-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,17 +24,18 @@
 .projects-section h2 {
   font-size: 7em;
   color: #44714a;
-  margin: 120px 120px 0;
+  margin: 120px 60px 0px;
   text-shadow: 5px 9px #b8d8bd;
 }
 
 .projects-section .project-cards {
   display: -ms-grid;
   display: grid;
+  grid-gap: 30px;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
-  padding: 0 120px;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  padding: 0 60px;
 }
 /*# sourceMappingURL=Projects.css.map */
