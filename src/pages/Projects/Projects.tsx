@@ -1,5 +1,5 @@
 import "./Projects.scss";
-import { projects } from "../../components/ProjectCard/ProjectsList";
+import { projects } from "../../components/ProjectsList/ProjectsList";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 export default function Projects() {

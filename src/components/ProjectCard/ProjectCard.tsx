@@ -14,16 +14,15 @@ export default function ProjectCard(props: Props) {
       <div className="card-content">
         <h4>{props.title}</h4>
         <p>{props.content}</p>
-        {/* <a href="#">Github</a>
-        <a href="#">Website</a> */}
+        <a href="#">Github</a>
+        <a href="#">Website</a>
       </div>
     </div>
   );
 }
 
 {
-  /* <div className={props.class}>
-      <Card>
+  /* <Card className={props.class}>
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
 
@@ -31,6 +30,5 @@ export default function ProjectCard(props: Props) {
           <Card.Link href="#">Github</Card.Link>
           <Card.Link href="#">Website</Card.Link>
         </Card.Body>
-      </Card>
-    </div> */
+      </Card> */
 }
