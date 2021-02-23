@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
 .home {
-  background-color: #b8d8bd;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,17 +14,16 @@
 }
 
 .profile {
-  margin: 80px 120px 120px 120px;
+  margin: 80px 120px 70px 120px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  background-color: white;
-  padding: 60px 80px;
 }
 
 .profile img {
-  margin-top: 40px;
+  margin-left: 80px;
+  margin-top: 20px;
 }
 
 .profile .profile-text {
@@ -33,7 +32,7 @@
 
 .profile .profile-text .profile-intro {
   padding: 44px;
-  background-color: #c9e3dd;
+  background-color: #f05029;
 }
 
 .profile .profile-text h2 {
@@ -46,5 +45,6 @@
 .profile .profile-text p {
   font-weight: 600;
   font-size: 1em;
+  color: white;
 }
 /*# sourceMappingURL=Home.css.map */

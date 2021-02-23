@@ -5,18 +5,19 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
+  cursor: pointer;
 }
 
 .slacker h3 {
-  color: #896750;
-  margin-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 30px;
+  font-size: 2.3em;
 }
 
 .slacker p {
-  color: #896750;
+  color: black;
   margin-bottom: 50px;
+  font-size: 1.1em;
 }
 
 .greenshop {
@@ -25,18 +26,19 @@
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
+  cursor: pointer;
 }
 
 .greenshop h3 {
-  color: #3c4c39;
-  margin-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 30px;
+  font-size: 2.3em;
 }
 
 .greenshop p {
-  color: #3c4c39;
+  color: black;
   margin-bottom: 40px;
+  font-size: 1.1em;
 }
 
 .help {
@@ -48,19 +50,19 @@
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
+  cursor: pointer;
 }
 
 .help h3 {
-  color: #3b7265;
-  margin-bottom: 20px;
-  font-weight: 700;
-  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 30px;
+  font-size: 2.3em;
 }
 
 .help p {
-  color: #3b7265;
+  color: black;
   margin-bottom: 40px;
-  font-weight: 600;
+  font-size: 1.1em;
 }
 
 .card-content {
