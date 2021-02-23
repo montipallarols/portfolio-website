@@ -1,8 +1,16 @@
-// $beige: #f2f1ed;
-// $orange-red: #dd7962;
+@import "./scss/style.scss";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.App {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
 }

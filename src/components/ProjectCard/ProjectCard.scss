@@ -4,11 +4,16 @@
   background-color: $beige-pink;
   text-align: center;
   // border-radius: 10px;
-  // border: 1px solid grey;
   grid-column: 1/2;
-  h4,
+  h3 {
+    color: darken($beige-pink, 50%);
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
   p {
-    color: white;
+    color: darken($beige-pink, 50%);
+    margin-bottom: 50px;
   }
 }
 
@@ -16,29 +21,40 @@
   background-color: $earth-green;
   text-align: center;
   // border-radius: 10px;
-  // border: 1px solid grey;
   grid-column: 2/3;
-  h4,
+  h3 {
+    color: darken($earth-green, 50%);
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
   p {
-    color: white;
+    color: darken($earth-green, 50%);
+    margin-bottom: 40px;
   }
 }
 
 .help {
-  background-color: $blue-green;
+  background-color: $light-blue-green;
   text-align: center;
   // border-radius: 10px;
-  // border: 1px solid grey;
   grid-column: 1/2;
   grid-row: 2/3;
-  h4,
+  h3 {
+    color: darken($light-blue-green, 50%);
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+  }
   p {
-    color: white;
+    color: darken($light-blue-green, 50%);
+    margin-bottom: 40px;
+    font-weight: 600;
   }
 }
 
 .card-content {
-  padding: 60px;
+  padding: 40px;
 
   a {
     margin-left: 0;

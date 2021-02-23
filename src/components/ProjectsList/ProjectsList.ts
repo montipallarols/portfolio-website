@@ -3,7 +3,7 @@ export const projects = [
     class: "slacker",
     title: "Slacker",
     content:
-      "Slacker is a web app for film buffs to review and keep a record of the films and series they've enjoyed and curate lists of those they want to enjoy later.",
+      "Slacker is a full stack web app for film buffs. Here you can review and keep a record of the films and series you've enjoyed and curate lists of those you want to enjoy later.",
     tech: ["React", "Redux", "TypeScript", "Sequelize"],
     image: "images/project-images/Slacker.png",
     height: "220px",
@@ -11,19 +11,18 @@ export const projects = [
   {
     class: "greenshop",
     title: "Greenshop",
-    content:
-      "An e-commerce site for sustainable products built with React-Redux.",
+    content: "An e-commerce site for eco-friendly products.",
     tech: ["React", "Redux", "Sequelize"],
     image: "images/project-images/Greenshop.png",
     height: "250px",
   },
   {
     class: "help",
-    title: "Help Mate",
+    title: "Helpmate",
     content:
-      "A full stack React Native app that allows the students at Codaisseur support each other during the bootcamp.",
+      "An app that allows the students at Codaisseur support each other during the bootcamp.",
     tech: ["React Native", "Redux", "Sequelize"],
     image: "images/project-images/Helpmate.png",
-    height: "250px",
+    height: "300px",
   },
 ];

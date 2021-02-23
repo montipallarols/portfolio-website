@@ -8,21 +8,36 @@
 }
 
 .profile {
-  margin: 120px;
+  margin: 80px 120px 120px 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: white;
+  padding: 60px 80px;
 
   img {
-    padding-left: 60px;
+    // margin-left: 100px;
+    margin-top: 40px;
   }
 
   .profile-text {
     text-align: left;
 
+    .profile-intro {
+      padding: 44px;
+      background-color: $light-blue-green;
+    }
+
     h2 {
-      color: $beige;
-      font-size: $font-size-h2;
-      text-shadow: $shadow-dark-green;
+      color: black;
+      font-size: 7.5em;
+      // text-shadow: $shadow-dark-green;
+      margin-bottom: -38px;
+      margin-left: -8px;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 1em;
     }
   }
 }

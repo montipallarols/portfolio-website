@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
 .slacker {
   background-color: #f1ebe7;
   text-align: center;
@@ -6,9 +7,16 @@
   grid-column: 1/2;
 }
 
-.slacker h4,
+.slacker h3 {
+  color: #896750;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 .slacker p {
-  color: white;
+  color: #896750;
+  margin-bottom: 50px;
 }
 
 .greenshop {
@@ -19,9 +27,16 @@
   grid-column: 2/3;
 }
 
-.greenshop h4,
+.greenshop h3 {
+  color: #3c4c39;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 .greenshop p {
-  color: white;
+  color: #3c4c39;
+  margin-bottom: 40px;
 }
 
 .help {
@@ -35,13 +50,21 @@
   grid-row: 2/3;
 }
 
-.help h4,
+.help h3 {
+  color: #3b7265;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 .help p {
-  color: white;
+  color: #3b7265;
+  margin-bottom: 40px;
+  font-weight: 600;
 }
 
 .card-content {
-  padding: 60px;
+  padding: 40px;
 }
 
 .card-content a {

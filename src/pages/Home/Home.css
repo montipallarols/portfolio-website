@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
 .home {
   background-color: #b8d8bd;
   display: -webkit-box;
@@ -13,24 +14,37 @@
 }
 
 .profile {
-  margin: 120px;
+  margin: 80px 120px 120px 120px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
+  background-color: white;
+  padding: 60px 80px;
 }
 
 .profile img {
-  padding-left: 60px;
+  margin-top: 40px;
 }
 
 .profile .profile-text {
   text-align: left;
 }
 
+.profile .profile-text .profile-intro {
+  padding: 44px;
+  background-color: #c9e3dd;
+}
+
 .profile .profile-text h2 {
-  color: #faf3d3;
-  font-size: 7em;
-  text-shadow: 5px 9px #44714a;
+  color: black;
+  font-size: 7.5em;
+  margin-bottom: -38px;
+  margin-left: -8px;
+}
+
+.profile .profile-text p {
+  font-weight: 600;
+  font-size: 1em;
 }
 /*# sourceMappingURL=Home.css.map */

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
 .projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,16 +23,15 @@
 }
 
 .projects-section h2 {
-  font-size: 7em;
-  color: #44714a;
+  font-size: 7.5em;
+  color: black;
   margin: 120px 60px 0px;
-  text-shadow: 5px 9px #b8d8bd;
 }
 
 .projects-section .project-cards {
   display: -ms-grid;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 10px;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;

@@ -14,7 +14,7 @@ export default function ProjectCard(props: Props) {
   return (
     <div className={props.class}>
       <div className="card-content">
-        <h4>{props.title}</h4>
+        <h3>{props.title}</h3>
         <p>{props.content}</p>
         <img src={props.image} alt="project" height={props.height} />
         {/* <a href="#">Github</a>
