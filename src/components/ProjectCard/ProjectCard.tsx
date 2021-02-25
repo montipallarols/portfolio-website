@@ -1,12 +1,11 @@
 import "./ProjectCard.scss";
-import { Card } from "react-bootstrap";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 interface Props {
   title: string;
   content: string;
   class: string;
   image: string;
-  height: string;
   // tech: Array<string>;
 }
 
@@ -17,23 +16,15 @@ export default function ProjectCard(props: Props) {
         <div className="card-title">
           <h3>{props.title}</h3>
         </div>
-        <p>{props.content}</p>
-        <img src={props.image} alt="project" height={props.height} />
-        {/* <a href="#">Github</a>
-        <a href="#">Website</a> */}
+        <p className="card-description">{props.content}</p>
+        <img src={props.image} alt="project" />
       </div>
+      {/* <span>
+        <a href="#">
+          <GitHubIcon /> Github
+        </a>
+        <a href="#">Website</a>
+      </span> */}
     </div>
   );
-}
-
-{
-  /* <Card className={props.class}>
-        <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
-
-          <Card.Text>{props.content}</Card.Text>
-          <Card.Link href="#">Github</Card.Link>
-          <Card.Link href="#">Website</Card.Link>
-        </Card.Body>
-      </Card> */
 }

@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
 .home {
-  background-color: white;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-594540-png.png");
+  background-size: cover;
+  background-position: bottom;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

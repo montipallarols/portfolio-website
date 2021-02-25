@@ -1,28 +1,28 @@
 export const projects = [
   {
-    class: "slacker",
+    class: "card slacker",
     title: "Slacker",
     content:
-      "Slacker is a full stack web app for film buffs. Here you can review and keep a record of the films and series you've enjoyed and curate lists of those you want to enjoy later.",
+      "A web app for film buffs. Here you can review and keep a record of the films and series you've enjoyed and curate lists of those you want to enjoy later.",
     tech: ["React", "Redux", "TypeScript", "Sequelize"],
-    image: "images/project-images/Slacker.png",
-    height: "220px",
+    image: "images/project-images/Slacker2.png",
+    github: "https://github.com/montipallarols/slacker-client",
   },
   {
-    class: "greenshop",
+    class: "card greenshop",
     title: "Greenshop",
     content: "An e-commerce site for eco-friendly products.",
     tech: ["React", "Redux", "Sequelize"],
     image: "images/project-images/Greenshop.png",
-    height: "250px",
+    github: "https://github.com/montipallarols/webshop-frontend",
   },
   {
-    class: "help",
+    class: "card help",
     title: "Helpmate",
     content:
       "An app that allows the students at Codaisseur support each other during the bootcamp.",
     tech: ["React Native", "Redux", "Sequelize"],
     image: "images/project-images/Helpmate.png",
-    height: "300px",
+    github: "https://github.com/montipallarols/stress-client",
   },
 ];

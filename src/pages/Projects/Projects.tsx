@@ -9,15 +9,21 @@ export default function Projects() {
         <h2>projects.</h2>
         <div className="project-cards-container">
           <div className="project-cards">
-            {projects.map((p) => {
+            {projects.map((p, index) => {
               return (
-                <ProjectCard
-                  class={p.class}
-                  title={p.title}
-                  content={p.content}
-                  image={p.image}
-                  height={p.height}
-                />
+                <a
+                  className="card-link"
+                  href={p.github}
+                  target="_blank"
+                  key={index}
+                >
+                  <ProjectCard
+                    class={p.class}
+                    title={p.title}
+                    content={p.content}
+                    image={p.image}
+                  />
+                </a>
               );
             })}
           </div>

@@ -8,10 +8,10 @@ export default function Home() {
       <div className="home">
         <div className="profile">
           <img
-            onMouseOver={(e) =>
-              (e.currentTarget.src = "/images/mon-cartoon.png")
-            }
-            onMouseOut={(e) => (e.currentTarget.src = "/images/mon.png")}
+            // onMouseOver={(e) =>
+            //   (e.currentTarget.src = "/images/mon-cartoon.png")
+            // }
+            // onMouseOut={(e) => (e.currentTarget.src = "/images/mon.png")}
             src="/images/mon.png"
             height="350px"
             alt="profile"
@@ -28,7 +28,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img src="/images/down-arrow.svg" alt="arrow" height="30px" />
+        {/* <img className="arrow" src="/images/down-arrow.svg" alt="arrow" /> */}
       </div>
       <Projects />
     </div>

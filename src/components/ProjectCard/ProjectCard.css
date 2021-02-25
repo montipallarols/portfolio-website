@@ -1,76 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
+.card {
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate(4px, 4px);
+          transform: translate(4px, 4px);
+}
+
+.card h3 {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.card p {
+  color: black;
+  margin-bottom: 50px;
+  font-size: 1em;
+}
+
+.card a {
+  color: black;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.card img {
+  margin-bottom: 15px;
+}
+
 .slacker {
   background-color: #f1ebe7;
-  text-align: center;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
-  cursor: pointer;
 }
 
-.slacker h3 {
-  color: black;
-  margin-bottom: 30px;
-  font-size: 2.3em;
-}
-
-.slacker p {
-  color: black;
-  margin-bottom: 50px;
-  font-size: 1.1em;
+.slacker img {
+  height: 160px;
 }
 
 .greenshop {
   background-color: #bccbb9;
-  text-align: center;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
-  cursor: pointer;
 }
 
-.greenshop h3 {
-  color: black;
-  margin-bottom: 30px;
-  font-size: 2.3em;
-}
-
-.greenshop p {
-  color: black;
-  margin-bottom: 40px;
-  font-size: 1.1em;
+.greenshop img {
+  height: 180px;
 }
 
 .help {
-  background-color: #c9e3dd;
-  text-align: center;
-  -ms-grid-column: 1;
+  background-color: #eceeef;
+  -ms-grid-column: 3;
   -ms-grid-column-span: 1;
-  grid-column: 1/2;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
-  cursor: pointer;
+  grid-column: 3/4;
 }
 
-.help h3 {
-  color: black;
-  margin-bottom: 30px;
-  font-size: 2.3em;
-}
-
-.help p {
-  color: black;
-  margin-bottom: 40px;
-  font-size: 1.1em;
+.help img {
+  height: 230px;
 }
 
 .card-content {
-  padding: 40px;
-}
-
-.card-content a {
-  margin-left: 0;
-  margin-right: 20px;
+  padding: 40px 20px 20px;
 }
 /*# sourceMappingURL=ProjectCard.css.map */
