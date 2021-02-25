@@ -73,6 +73,13 @@
   margin-left: -8px;
 }
 
+@media screen and (max-width: 750px) {
+  .profile .profile-text h2 {
+    font-size: 5.5em;
+    margin-bottom: -32px;
+  }
+}
+
 .profile .profile-text p {
   font-weight: 600;
   font-size: 1em;

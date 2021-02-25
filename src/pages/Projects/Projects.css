@@ -1,28 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
-.projects {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.projects-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .projects-section h2 {
   font-size: 7.5em;
   color: black;
-  margin: 120px 60px 0px;
+  margin: 120px 60px -30px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 750px) {
+  .projects-section h2 {
+    font-size: 5.5em;
+  }
 }
 
 .projects-section .project-cards {
@@ -32,6 +20,14 @@
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   padding: 0 60px;
+}
+
+@media screen and (max-width: 750px) {
+  .projects-section .project-cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 }
 
 .projects-section .project-cards .card-link:hover {
