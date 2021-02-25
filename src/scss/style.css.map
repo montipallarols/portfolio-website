@@ -5,7 +5,8 @@
         "style.scss",
         "variables/_variables.scss",
         "variables/_colours.scss",
-        "fonts/_fonts.scss"
+        "fonts/_fonts.scss",
+        "media-queries/_media-queries.scss"
     ],
     "names": [],
     "file": "style.css"

@@ -1,24 +1,46 @@
 @import "../../scss/style.scss";
 
 .home {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-594540-png.png");
-  // url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/paperboard-texture_95678-72.jpg");
-  background-size: cover;
-  background-position: bottom;
-  // box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 500px;
+  // background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-594540-png.png");
+  // // url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/paperboard-texture_95678-72.jpg");
+  // background-size: cover;
+  // background-position: bottom;
 }
 
 .profile {
-  margin: 80px 120px 70px 120px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 80px 140px 70px 120px;
+  display: flex;
+  @include tablet {
+    display: block;
+    text-align: center;
+    margin: 30px;
+  }
 
-  img {
-    margin-left: 80px;
-    margin-top: 20px;
+  .image {
+    height: 350px;
+    margin-right: 40px;
+    @include tablet {
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: -35px;
+    }
+  }
+
+  .top {
+    @include tablet {
+      display: none;
+    }
+  }
+
+  .bottom {
+    display: none;
+    @include tablet {
+      display: block;
+    }
   }
 
   .profile-text {

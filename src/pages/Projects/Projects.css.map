@@ -1,12 +1,13 @@
 {
     "version": 3,
-    "mappings": "AIAA,OAAO,CAAC,2HAAI;AJEZ,AAAA,SAAS,CAAC;EACR,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAsBvB;;AAxBD,AAIE,iBAJe,CAIf,EAAE,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,cAAc;CAEvB;;AATH,AAWE,iBAXe,CAWf,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,IAAI;EACd,qBAAqB,EAAE,WAAW;EAElC,OAAO,EAAE,MAAM;CAOhB;;AAvBH,AAmBM,iBAnBW,CAWf,cAAc,CAOZ,UAAU,AACP,MAAM,CAAC;EACN,eAAe,EAAE,IAAI;CACtB",
+    "mappings": "AIAA,OAAO,CAAC,2HAAI;AJEZ,AAAA,SAAS,CAAC;EACR,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAsBvB;;AAxBD,AAIE,iBAJe,CAIf,EAAE,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,cAAc;CAEvB;;AATH,AAWE,iBAXe,CAWf,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,GAAG;EACb,qBAAqB,EAAE,WAAW;EAElC,OAAO,EAAE,MAAM;CAOhB;;AAvBH,AAmBM,iBAnBW,CAWf,cAAc,CAOZ,UAAU,AACP,MAAM,CAAC;EACN,eAAe,EAAE,IAAI;CACtB",
     "sources": [
         "Projects.scss",
         "../../scss/style.scss",
         "../../scss/variables/_variables.scss",
         "../../scss/variables/_colours.scss",
-        "../../scss/fonts/_fonts.scss"
+        "../../scss/fonts/_fonts.scss",
+        "../../scss/media-queries/_media-queries.scss"
     ],
     "names": [],
     "file": "Projects.css"

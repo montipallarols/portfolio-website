@@ -28,7 +28,7 @@
 .projects-section .project-cards {
   display: -ms-grid;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 5px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   padding: 0 60px;
