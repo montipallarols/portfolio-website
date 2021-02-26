@@ -1,18 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap");
 .card {
-  background-color: white;
+  background-color: #f5f5f5 !important;
   text-align: center;
   cursor: pointer;
-  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0.2px 0.2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0.2px 0.2px 5px rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-style: none !important;
 }
 
 .card:hover {
-  -webkit-box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
-          box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.4);
   -webkit-transform: translate(0px, 0px);
           transform: translate(0px, 0px);
 }
@@ -21,11 +24,12 @@
   color: black;
   margin-bottom: 30px;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .card p {
   color: black;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 1em;
 }
 
@@ -42,21 +46,21 @@
 }
 
 .slacker {
-  background-color: #f1ebe7;
+  background-color: #ebeae9 !important;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
 }
 
 .greenshop {
-  background-color: #bccbb9;
+  background-color: #e6ece5 !important;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
 }
 
 .help {
-  background-color: #eceeef;
+  background-color: #ebf4f2 !important;
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;

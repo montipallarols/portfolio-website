@@ -1,28 +1,27 @@
 @import "../../scss/style.scss";
 
 .card {
-  background-color: white;
+  background-color: $light-grey !important;
   text-align: center;
   cursor: pointer;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.2px 0.2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.2s;
   border-style: none !important;
 
   &:hover {
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.4);
     transform: translate(0px, 0px);
   }
 
   h3 {
-    // color: darken($beige-pink, 50%);
     color: black;
     margin-bottom: 30px;
     font-size: 1.5em;
+    text-transform: uppercase;
   }
   p {
-    // color: darken($beige-pink, 50%);
     color: black;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 1em;
   }
 
@@ -40,20 +39,18 @@
 }
 
 .slacker {
-  background-color: $beige-pink;
+  background-color: $newspaper !important;
   grid-column: 1/2;
 }
 
 .greenshop {
-  background-color: $earth-green;
+  background-color: lighten($earth-green, 15%) !important;
   grid-column: 2/3;
-  // grid-row: 2/3;
 }
 
 .help {
-  background-color: $light-grey;
+  background-color: lighten($light-blue-green, 10%) !important;
   grid-column: 3/4;
-  // grid-row: 3/3;
   p {
     margin: 15px;
     @include tablet {

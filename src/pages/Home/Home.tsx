@@ -19,8 +19,9 @@ export default function Home() {
           </div>
         </div>
         <img className="image bottom" src="/images/mon.png" alt="profile" />
-        {/* <img className="arrow" src="/images/down-arrow.svg" alt="arrow" /> */}
       </div>
+      <img className="arrow" src="/images/drawn-arrow.svg" alt="arrow" />
+
       <Projects />
     </div>
   );

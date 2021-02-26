@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AIAA,OAAO,CAAC,2HAAI;AAEZ,OAAO,CAAC,0FAAI;AAEZ,OAAO,CAAC,4EAAI;AAEZ,OAAO,CAAC,mFAAI;AJJZ,AAAA,OAAO,CAAC;EACN,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI;EACX,gBAAgB,EGoBH,OAAO;CHOrB;;AA/BD,AAKE,OALK,CAKL,eAAe,CAAC;EACd,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,WAAW;CACnC;;AAVH,AAYE,OAZK,CAYL,UAAU,CAAC;EACT,WAAW,EAAE,GAAG;CACjB;;AAdH,AAgBE,OAhBK,CAgBL,OAAO,CAAC;EACN,WAAW,EAAE,GAAG;CAKjB;;AAtBH,AAmBI,OAnBG,CAgBL,OAAO,CAGL,OAAO,CAAC;EACN,aAAa,EAAE,IAAI;CACpB;;AArBL,AAwBE,OAxBK,CAwBL,MAAM,CAAC;EACL,WAAW,EAAE,GAAG;CACjB;;AA1BH,AA4BE,OA5BK,CA4BL,EAAE,CAAC;EACD,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "Footer.scss",
+        "../../scss/style.scss",
+        "../../scss/variables/_variables.scss",
+        "../../scss/variables/_colours.scss",
+        "../../scss/fonts/_fonts.scss",
+        "../../scss/media-queries/_media-queries.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}

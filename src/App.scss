@@ -7,10 +7,13 @@
 }
 
 .App {
-  font-family: "Poppins", sans-serif;
+  position: relative;
+  min-height: 100vh;
+  // font-family: "Open Sans", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  // font-family: "Karma", serif;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-weight: 600 !important;
 }
