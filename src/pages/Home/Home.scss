@@ -11,7 +11,6 @@
 }
 
 .profile {
-  // margin: 80px 140px 70px 120px;
   margin: 30px 150px 70px 120px;
   display: flex;
   @include tablet {
@@ -30,6 +29,9 @@
       margin-right: auto;
       margin-left: auto;
       margin-top: -35px;
+    }
+    @include mobile {
+      height: 250px;
     }
   }
 
@@ -52,6 +54,10 @@
     .profile-intro {
       padding: 44px;
       background-color: darken($earth-green, 10%);
+      @include mobile {
+        font-size: 0.9em;
+        padding: 40px 20px;
+      }
     }
 
     h2 {
@@ -75,11 +81,12 @@
 }
 
 .arrow {
-  height: 80px;
+  height: 60px;
   cursor: pointer;
   transform: rotate(180deg);
-  margin-top: -140px;
+  margin-top: -100px;
   position: relative;
+
   &:hover {
     animation: bounce 1s infinite;
     @keyframes bounce {

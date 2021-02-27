@@ -5,19 +5,40 @@
   bottom: 0;
   width: 100%;
   background-color: $darkest-grey;
+
   .footer-content {
+    padding: 15px;
     color: white;
     margin: 0 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @include tablet {
+      padding: 0;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+    @include mobile {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
   }
 
   .copyright {
     grid-column: 1/2;
+    @include mobile {
+      grid-row: 3/4;
+    }
   }
 
   .social {
     grid-column: 2/3;
+    @include tablet {
+      grid-column: 2/3;
+    }
+    @include mobile {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
 
     .github {
       padding-right: 20px;
@@ -26,6 +47,13 @@
 
   .email {
     grid-column: 3/4;
+    @include tablet {
+      grid-column: 2/3;
+    }
+    @include mobile {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
   }
 
   h6 {

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 .footer {
   position: relative;
   bottom: 0;
@@ -10,6 +11,7 @@
 }
 
 .footer .footer-content {
+  padding: 15px;
   color: white;
   margin: 0 10%;
   display: -ms-grid;
@@ -18,16 +20,62 @@
       grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media screen and (max-width: 1100px) {
+  .footer .footer-content {
+    padding: 0;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer .footer-content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
 .footer .copyright {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
 }
 
+@media screen and (max-width: 750px) {
+  .footer .copyright {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+  }
+}
+
 .footer .social {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer .social {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer .social {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
 }
 
 .footer .social .github {
@@ -38,6 +86,25 @@
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer .email {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer .email {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+  }
 }
 
 .footer h6 {
