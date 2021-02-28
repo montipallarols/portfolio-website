@@ -1,4 +1,5 @@
 import "./About.scss";
+import { Badge } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -21,6 +22,33 @@ export default function About() {
               I'm excited to keep growing and work on exciting and challenging
               projects.
             </p>
+            <Badge pill variant="secondary">
+              HTML
+            </Badge>
+            <Badge pill variant="secondary">
+              CSS
+            </Badge>
+            <Badge pill variant="secondary">
+              JavaScript
+            </Badge>
+            <Badge pill variant="secondary">
+              React
+            </Badge>
+            <Badge pill variant="secondary">
+              Redux
+            </Badge>
+            <Badge pill variant="secondary">
+              TypeScript
+            </Badge>
+            <Badge pill variant="secondary">
+              Node.js
+            </Badge>
+            <Badge pill variant="secondary">
+              Sequelize
+            </Badge>
+            <Badge pill variant="secondary">
+              PostgreSQL
+            </Badge>
           </div>
         </div>
       </div>
