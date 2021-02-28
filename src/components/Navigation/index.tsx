@@ -11,11 +11,12 @@ export default function Navigation() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav style={{ width: "33%" }} fill className="ml-auto">
+        <Nav style={{ width: "28%" }} fill className="ml-auto">
           <NavbarItem path="/" linkText="Home" />
           <NavbarItem path="/about" linkText="About" />
-          <NavbarItem path="/projects" linkText="Projects" />
-          <NavbarItem path="/contact" linkText="Contact" />
+          <a href="#projects-section" className="nav-link">
+            Projects
+          </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -5,7 +5,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 export default function Projects() {
   return (
     <div className="projects">
-      <div className="projects-section">
+      <div id="projects-section">
         <h2>projects.</h2>
         <div className="project-cards-container">
           <div className="project-cards">

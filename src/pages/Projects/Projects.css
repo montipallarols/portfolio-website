@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
-.projects-section {
+#projects-section {
   padding-bottom: 50px;
 }
 
-.projects-section h2 {
+#projects-section h2 {
   font-size: 7.5em;
   color: black;
   margin: 120px 60px -30px;
@@ -16,12 +16,12 @@
 }
 
 @media screen and (max-width: 750px) {
-  .projects-section h2 {
+  #projects-section h2 {
     font-size: 3.4em;
   }
 }
 
-.projects-section .project-cards {
+#projects-section .project-cards {
   display: -ms-grid;
   display: grid;
   grid-gap: 5px;
@@ -31,14 +31,14 @@
 }
 
 @media screen and (max-width: 750px) {
-  .projects-section .project-cards {
+  #projects-section .project-cards {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 20px;
   }
 }
 
-.projects-section .project-cards .card-link:hover {
+#projects-section .project-cards .card-link:hover {
   text-decoration: none;
 }
 /*# sourceMappingURL=Projects.css.map */

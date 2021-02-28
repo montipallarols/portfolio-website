@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AIAA,OAAO,CAAC,2HAAI;AAEZ,OAAO,CAAC,0FAAI;AAEZ,OAAO,CAAC,4EAAI;AAEZ,OAAO,CAAC,mFAAI;AAEZ,OAAO,CAAC,yEAAI;AJNZ,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,cAAc,CAAC;EACb,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CAgB/B;;AAlBD,AAIE,cAJY,CAIZ,cAAc,CAAC;EACb,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,GAAG;CACjB;;AARH,AAUE,cAVY,CAUZ,EAAE,CAAC;EACD,SAAS,EAAE,KAAK;CACjB;;AAZH,AAcE,cAdY,CAcZ,WAAW,CAAC;EACV,WAAW,EAAE,KAAK;EAClB,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "About.scss",
+        "../../scss/style.scss",
+        "../../scss/variables/_variables.scss",
+        "../../scss/variables/_colours.scss",
+        "../../scss/fonts/_fonts.scss",
+        "../../scss/media-queries/_media-queries.scss",
+        "../../scss/mixins/_mixins.scss"
+    ],
+    "names": [],
+    "file": "About.css"
+}

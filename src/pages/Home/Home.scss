@@ -21,17 +21,17 @@
 
   .image {
     height: 330px;
-    margin-right: -30px;
+    margin-right: -50px;
     margin-top: 160px;
-    position: relative;
-    z-index: 1;
+    // position: relative;
+    // z-index: 1;
     @include tablet {
       margin-right: auto;
       margin-left: auto;
-      margin-top: -35px;
+      margin-top: 30px;
     }
     @include mobile {
-      height: 250px;
+      height: 290px;
     }
   }
 
@@ -52,11 +52,21 @@
     text-align: left;
 
     .profile-intro {
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+      font-size: 1.2em;
       padding: 44px;
       background-color: darken($earth-green, 10%);
       @include mobile {
-        font-size: 0.9em;
-        padding: 40px 20px;
+        font-size: 1em;
+        // padding: 40px 15px;
+      }
+
+      a {
+        color: black;
+
+        &:hover {
+          @include hoverLink();
+        }
       }
     }
 
@@ -84,7 +94,7 @@
   height: 60px;
   cursor: pointer;
   transform: rotate(180deg);
-  margin-top: -100px;
+  margin-top: -120px;
   position: relative;
 
   &:hover {
