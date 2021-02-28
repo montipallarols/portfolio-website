@@ -1,4 +1,6 @@
 import "./Footer.scss";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 export default function Footer() {
   return (
@@ -17,14 +19,14 @@ export default function Footer() {
               className="github"
               target="_blank"
             >
-              Github
+              <GitHubIcon /> Github
             </a>
             <a
               href="https://www.linkedin.com/in/montaga-pallarols/"
               className="github"
               target="_blank"
             >
-              LinkedIn
+              <LinkedInIcon /> LinkedIn
             </a>
           </p>
         </div>

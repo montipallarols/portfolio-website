@@ -1,13 +1,14 @@
 {
     "version": 3,
-    "mappings": "AIAA,OAAO,CAAC,2HAAI;AAEZ,OAAO,CAAC,0FAAI;AAEZ,OAAO,CAAC,4EAAI;AAEZ,OAAO,CAAC,mFAAI;AAEZ,OAAO,CAAC,yEAAI;AJNZ,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,KAAK;CACxB",
+    "mappings": "AIAA,OAAO,CAAC,2HAAI;AAEZ,OAAO,CAAC,0FAAI;AAEZ,OAAO,CAAC,4EAAI;AAEZ,OAAO,CAAC,mFAAI;AAEZ,OAAO,CAAC,yEAAI;AJNZ,AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,KAAK;CACxB;;AAED,AACE,SADO,AACN,MAAM,CAAC;EMNR,gBAAgB,EAAE,mhBAAmhB;EACriB,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,QAAQ;EACzB,iBAAiB,EAAE,QAAQ;EAC3B,eAAe,EAAE,IAAI;CNIpB",
     "sources": [
         "Navigation.scss",
         "../../scss/style.scss",
         "../../scss/variables/_variables.scss",
         "../../scss/variables/_colours.scss",
         "../../scss/fonts/_fonts.scss",
-        "../../scss/media-queries/_media-queries.scss"
+        "../../scss/media-queries/_media-queries.scss",
+        "../../scss/mixins/_mixins.scss"
     ],
     "names": [],
     "file": "Navigation.css"

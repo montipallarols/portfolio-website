@@ -7,7 +7,8 @@
         "../../scss/variables/_variables.scss",
         "../../scss/variables/_colours.scss",
         "../../scss/fonts/_fonts.scss",
-        "../../scss/media-queries/_media-queries.scss"
+        "../../scss/media-queries/_media-queries.scss",
+        "../../scss/mixins/_mixins.scss"
     ],
     "names": [],
     "file": "Home.css"

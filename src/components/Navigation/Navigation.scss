@@ -3,3 +3,9 @@
 .navbar {
   background-color: white;
 }
+
+.nav-link {
+  &:hover {
+    @include hoverLink();
+  }
+}

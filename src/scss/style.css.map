@@ -6,7 +6,8 @@
         "variables/_variables.scss",
         "variables/_colours.scss",
         "fonts/_fonts.scss",
-        "media-queries/_media-queries.scss"
+        "media-queries/_media-queries.scss",
+        "mixins/_mixins.scss"
     ],
     "names": [],
     "file": "style.css"
