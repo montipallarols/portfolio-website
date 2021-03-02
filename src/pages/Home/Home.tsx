@@ -8,13 +8,13 @@ export default function Home() {
   let [intro, setIntro] = useState<string>("");
 
   let i = 0;
-  let text = "hey!";
+  let text = "hey.";
 
   function typeWriter() {
     if (i < text.length) {
       setIntro((intro += text.charAt(i)));
       i++;
-      setTimeout(typeWriter, 400);
+      setTimeout(typeWriter, 300);
     }
   }
 
