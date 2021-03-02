@@ -1,7 +1,26 @@
+import React, { useState, useEffect } from "react";
 import "./About.scss";
 import { Badge } from "react-bootstrap";
 
 export default function About() {
+  let [intro, setIntro] = useState<string>("");
+
+  let i = 0;
+  let text = "a bit about me.";
+  let speed = 100;
+
+  function typeWriter() {
+    if (i < text.length) {
+      setIntro((intro += text.charAt(i)));
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+  useEffect(() => {
+    typeWriter();
+  }, []);
+
   return (
     <div className="about">
       <div className="about-section">
@@ -13,16 +32,16 @@ export default function About() {
           />
         </div>
         <div className="content">
-          <h2>a bit about me.</h2>
+          <h2>{intro}</h2>
           <div className="text-container">
             <p>
               I'm a junior developer who decided to leave teaching behind to
               find out how computers use language instead. Soon after I started
-              experimenting with HTML, CSS and JavaScript I realised I'd found
-              the perfect cognitive outlet with the right balance of logic,
-              utility and creativity. It’s been a nonstop sprint ever since and
-              I'm excited to keep growing and work on exciting and challenging
-              projects.
+              experimenting with HTML, CSS and JavaScript I was hooked to what
+              I'd found to be the perfect cognitive outlet with the right
+              balance of logic, utility and creativity. It’s been a nonstop
+              sprint ever since and I'm excited to keep growing and work on
+              exciting and challenging projects.
             </p>
             <div className="tech-skills">
               <Badge pill variant="secondary">

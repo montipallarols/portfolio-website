@@ -11,12 +11,14 @@
 }
 
 .profile {
-  margin: 30px 120px 70px 120px;
+  margin: 30px 120px;
   display: flex;
   @include tablet {
+    margin: 30px;
+  }
+  @include mobile {
     display: block;
     text-align: center;
-    margin: 30px;
   }
 
   .image {
@@ -25,25 +27,24 @@
     margin-top: 160px;
     // position: relative;
     // z-index: 1;
-    @include tablet {
+    @include mobile {
       margin-right: auto;
       margin-left: auto;
       margin-top: 30px;
-    }
-    @include mobile {
-      height: 290px;
+      width: 100%;
+      height: auto;
     }
   }
 
   .top {
-    @include tablet {
+    @include mobile {
       display: none;
     }
   }
 
   .bottom {
     display: none;
-    @include tablet {
+    @include mobile {
       display: block;
     }
   }
@@ -57,8 +58,8 @@
       padding: 44px;
       background-color: darken($earth-green, 10%);
       @include mobile {
-        font-size: 1em;
-        // padding: 40px 15px;
+        font-size: 1.1em;
+        padding: 40px 15px;
       }
 
       a {
