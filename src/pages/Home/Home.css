@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,7 +15,7 @@
 }
 
 .profile {
-  margin: 30px 120px;
+  margin: 30px 120px 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,11 +118,9 @@
 }
 
 .arrow {
-  height: 60px;
+  height: 50px;
   cursor: pointer;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  margin-top: -120px;
+  margin-top: -90px;
   position: relative;
 }
 

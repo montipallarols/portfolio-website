@@ -4,14 +4,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-594540-png.png");
-  // // url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/paperboard-texture_95678-72.jpg");
-  // background-size: cover;
-  // background-position: bottom;
 }
 
 .profile {
-  margin: 30px 120px;
+  margin: 30px 120px 100px;
   display: flex;
   @include tablet {
     margin: 30px;
@@ -92,10 +88,9 @@
 }
 
 .arrow {
-  height: 60px;
+  height: 50px;
   cursor: pointer;
-  transform: rotate(180deg);
-  margin-top: -120px;
+  margin-top: -90px;
   position: relative;
 
   &:hover {

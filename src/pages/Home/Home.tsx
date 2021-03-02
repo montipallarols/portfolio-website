@@ -8,14 +8,13 @@ export default function Home() {
   let [intro, setIntro] = useState<string>("");
 
   let i = 0;
-  let text = "hey.";
-  let speed = 400;
+  let text = "hey!";
 
   function typeWriter() {
     if (i < text.length) {
       setIntro((intro += text.charAt(i)));
       i++;
-      setTimeout(typeWriter, speed);
+      setTimeout(typeWriter, 400);
     }
   }
 
@@ -56,7 +55,7 @@ export default function Home() {
         />
       </div>
 
-      {/* <img className="arrow" src="/images/drawn-arrow.svg" alt="arrow" /> */}
+      {/* <img className="arrow" src="/images/down-arrow.svg" alt="arrow" /> */}
 
       <Projects />
     </div>

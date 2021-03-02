@@ -7,13 +7,12 @@ export default function About() {
 
   let i = 0;
   let text = "a bit about me.";
-  let speed = 100;
 
   function typeWriter() {
     if (i < text.length) {
       setIntro((intro += text.charAt(i)));
       i++;
-      setTimeout(typeWriter, speed);
+      setTimeout(typeWriter, 100);
     }
   }
 
