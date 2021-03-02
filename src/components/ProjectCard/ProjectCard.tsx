@@ -1,12 +1,10 @@
 import "./ProjectCard.scss";
-import GitHubIcon from "@material-ui/icons/GitHub";
 
 interface Props {
   title: string;
   content: string;
   class: string;
   image: string;
-  // tech: Array<string>;
 }
 
 export default function ProjectCard(props: Props) {
