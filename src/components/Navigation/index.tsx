@@ -6,12 +6,12 @@ import NavbarItem from "./NavbarItem";
 export default function Navigation() {
   return (
     <Navbar expand="lg" className="navbar">
-      <Navbar.Brand as={NavLink} to="/">
+      <Navbar.Brand as={NavLink} to="/" className="logo">
         m.
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav style={{ width: "28%" }} fill className="ml-auto">
+        <Nav style={{ width: "23%" }} fill className="ml-auto">
           <NavbarItem path="/" linkText="Home" />
           <NavbarItem path="/about" linkText="About" />
           <a href="#projects-section" className="nav-link">

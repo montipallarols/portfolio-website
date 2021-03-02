@@ -1,29 +1,61 @@
 @import "../../scss/style.scss";
 
 .about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 100px;
+  margin: 60px;
+  @include tablet {
+    margin: 30px;
+  }
 }
 
 .about-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+
+  @include mobile {
+    flex-direction: column;
+  }
+
+  .image-box {
+    margin-right: 30px;
+    @include mobile {
+      display: none;
+    }
+  }
 
   .profile-image {
-    width: 80%;
-    margin-left: 30px;
-    grid-column: 1/2;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
   h2 {
     font-size: 3.2em;
+    @include mobile {
+      font-size: 3em;
+    }
   }
 
-  .about-text {
-    margin-left: -30px;
-    grid-column: 2/3;
+  .content {
     line-height: 35px;
+    @include tablet {
+      margin-bottom: 50px;
+    }
+  }
+
+  .text-container {
+    p {
+      margin-bottom: 30px;
+      @include tablet {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .profile-image-2 {
+    width: 100%;
+    display: none;
+    margin: 0 auto;
+    @include mobile {
+      display: block;
+    }
   }
 }

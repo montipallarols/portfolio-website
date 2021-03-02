@@ -19,12 +19,6 @@ export default function ProjectCard(props: Props) {
         <p className="card-description">{props.content}</p>
         <img src={props.image} alt="project" />
       </div>
-      {/* <span>
-        <a href="#">
-          <GitHubIcon /> Github
-        </a>
-        <a href="#">Website</a>
-      </span> */}
     </div>
   );
 }
