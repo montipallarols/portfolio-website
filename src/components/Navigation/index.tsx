@@ -21,7 +21,7 @@ export default function Navigation() {
           <NavHashLink
             // as={NavLink}
             exact
-            to="/#projects-section"
+            to="/#projects"
             className="nav-link"
           >
             Projects

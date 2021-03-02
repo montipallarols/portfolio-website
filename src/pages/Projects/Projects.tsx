@@ -4,8 +4,8 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 export default function Projects() {
   return (
-    <div className="projects">
-      <div id="projects-section">
+    <div className="projects-section">
+      <div id="projects">
         <h2>projects.</h2>
         <div className="project-cards-container">
           <div className="project-cards">

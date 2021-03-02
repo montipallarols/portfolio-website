@@ -26,6 +26,7 @@
   font-weight: bolder;
   @include transition(0.5s ease-in-out);
   @include textShadow((0 0 0 transparent, 0 0 0 transparent));
+
   overflow: visible;
   &:hover {
     @include textShadow((0 0 10px #ff401a, 0 0 50px #ff9b1a));

@@ -3,7 +3,7 @@ export const projects = [
     class: "card slacker",
     title: "Slacker",
     content:
-      "A web app for film buffs. Here you can review and keep a record of the films and series you've enjoyed and curate lists of those you want to enjoy later.",
+      "A web app where you can review and keep a record of the films and series you've enjoyed and curate lists of those you want to enjoy later.",
     tech: ["React", "Redux", "TypeScript", "Sequelize"],
     image: "images/project-images/Slacker2.png",
     github: "https://github.com/montipallarols/slacker-client",
