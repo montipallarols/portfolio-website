@@ -13,7 +13,7 @@ export default function Projects() {
     if (i < text.length) {
       setProjectsTitle((projectsTitle += text.charAt(i)));
       i++;
-      setTimeout(typeWriter, 100);
+      setTimeout(typeWriter, 200);
     }
   }
 

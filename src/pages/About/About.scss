@@ -2,11 +2,7 @@
 
 .about {
   margin: 60px;
-  // background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm209-adj-06-a.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=26d732d4f5cc62eb3f93deee6f8ac36c");
-  // // url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/paperboard-texture_95678-72.jpg");
-  // // background-size: cover;
-  // background-repeat: no-repeat;
-  // // background-position: bottom;
+
   @include tablet {
     margin: 30px;
   }

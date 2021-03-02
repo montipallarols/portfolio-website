@@ -2,6 +2,14 @@
 
 #projects {
   padding-bottom: 50px;
+  background-image: url("../../images/leaves.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -20px;
+  background-position: top;
+  @include mobile {
+    background-position: 0 5px;
+  }
 
   h2 {
     font-size: $h2;
