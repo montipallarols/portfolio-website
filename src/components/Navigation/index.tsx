@@ -17,13 +17,7 @@ export default function Navigation() {
         <Nav fill className="ml-auto">
           <NavbarItem path="/" linkText="Home" />
           <NavbarItem path="/about" linkText="About" />
-
-          <NavHashLink
-            // as={NavLink}
-            exact
-            to="/#projects"
-            className="nav-link"
-          >
+          <NavHashLink exact to="/#projects" className="nav-link">
             Projects
           </NavHashLink>
         </Nav>

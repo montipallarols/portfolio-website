@@ -48,12 +48,7 @@
   background-color: lighten($light-blue-green, 10%) !important;
   // grid-column: 1/2;
   // grid-row: 2/3;
-  p {
-    margin: 15px;
-    @include tablet {
-      margin: 0 0 15px;
-    }
-  }
+
   img {
     width: 40%;
     height: auto;

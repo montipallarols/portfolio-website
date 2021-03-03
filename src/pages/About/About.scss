@@ -1,11 +1,11 @@
 @import "../../scss/style.scss";
 
 .about {
-  margin: 60px;
+  margin: 30px;
   min-height: 100vh;
 
-  @include tablet {
-    margin: 30px;
+  @include mobile {
+    margin: 20px;
   }
 }
 

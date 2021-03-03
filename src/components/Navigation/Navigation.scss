@@ -19,10 +19,15 @@
 .navbar {
   background-color: white;
   font-family: "Montserrat", sans-serif;
+  margin: 0 10px;
+  // @include tablet {
+  //   margin: 0 10px;
+  // }
 }
 
 .ml-auto {
   width: 23%;
+
   @include tablet {
     width: 100%;
   }
@@ -31,6 +36,7 @@
 .logo {
   font-size: 1.5rem !important;
   font-weight: bolder;
+  margin: 0 5px;
   @include transition(0.5s ease-in-out);
   @include textShadow((0 0 0 transparent, 0 0 0 transparent));
 
@@ -38,12 +44,21 @@
   &:hover {
     @include textShadow((0 0 10px #ff401a, 0 0 50px #ff9b1a));
   }
+  @include tablet {
+    margin: 0 5px;
+  }
+  @include mobile {
+    margin: 0 -5px;
+  }
 }
 
 .nav-link {
   text-transform: uppercase;
   font-size: 0.9rem !important;
-  &:hover {
-    @include hoverLink();
+  // &:hover {
+  //   @include hoverLink();
+  // }
+
+  @include tablet {
   }
 }
