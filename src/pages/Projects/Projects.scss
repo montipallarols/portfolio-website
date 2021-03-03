@@ -6,6 +6,9 @@
 
 #projects {
   padding-bottom: 50px;
+  @include tablet {
+    margin: 0 -30px;
+  }
   @include mobile {
     background-position: 0 5px;
   }
