@@ -63,6 +63,7 @@
 
         &:hover {
           @include hoverLink();
+          padding-bottom: 5px;
         }
       }
     }

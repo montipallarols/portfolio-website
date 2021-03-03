@@ -95,6 +95,7 @@
   background-size: auto 4px;
   background-repeat: repeat-x;
   text-decoration: none;
+  padding-bottom: 5px;
 }
 
 .profile .profile-text h2 {
