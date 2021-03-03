@@ -20,7 +20,7 @@ export const projects = [
     class: "card help",
     title: "Helpmate",
     content:
-      "An app that allows the students at Codaisseur support each other during the bootcamp.",
+      "An app that allows the students at Codaisseur to support each other during the bootcamp.",
     tech: ["React Native", "Redux", "Sequelize"],
     image: "images/project-images/Helpmate.png",
     github: "https://github.com/montipallarols/stress-client",

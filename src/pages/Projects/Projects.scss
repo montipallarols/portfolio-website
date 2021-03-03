@@ -1,12 +1,11 @@
 @import "../../scss/style.scss";
 
+.projects-section {
+  min-height: 100vh;
+}
+
 #projects {
   padding-bottom: 50px;
-  background-image: url("../../images/leaves.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: -20px;
-  background-position: top;
   @include mobile {
     background-position: 0 5px;
   }
