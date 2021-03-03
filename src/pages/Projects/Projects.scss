@@ -6,32 +6,32 @@
 
 #projects {
   padding-bottom: 50px;
-  @include tablet {
-    margin: 0 -30px;
-  }
   @include mobile {
-    background-position: 0 5px;
+    // background-position: 0 5px;
   }
 
   h2 {
     font-size: $h2;
     color: black;
-    margin: 120px 60px -30px;
+    margin: 120px 20px -30px;
     position: relative;
     z-index: 1;
     @include mobile {
-      font-size: 3.4em;
+      font-size: 3.4rem;
+      margin: 10px 0px -18px 15px;
     }
   }
 
   .project-cards {
     display: grid;
-    grid-gap: 5px;
+    grid-row-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 60px;
+    // grid-auto-rows: minmax(500px, auto);
+    padding: 0 30px;
     @include mobile {
       grid-template-columns: 1fr;
       grid-gap: 20px;
+      padding: 0 20px;
     }
     .card-link {
       &:hover {

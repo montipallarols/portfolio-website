@@ -21,34 +21,26 @@
 .card h3 {
   color: black;
   margin-bottom: 30px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 .card p {
   color: black;
   margin-bottom: 20px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .card img {
-  margin-bottom: auto;
   width: 100%;
-  height: auto;
 }
 
 .slacker {
   background-color: #ebeae9 !important;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-column: 1/2;
 }
 
 .greenshop {
   background-color: #e6ece5 !important;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-column: 2/3;
 }
 
 @media screen and (max-width: 750px) {
@@ -59,9 +51,6 @@
 
 .help {
   background-color: #ebf4f2 !important;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 1;
-  grid-column: 3/4;
 }
 
 .help p {
@@ -83,6 +72,10 @@
   .help {
     margin-left: -20px;
   }
+}
+
+.portfolio {
+  background-color: #ebf4f2 !important;
 }
 
 .card-content {

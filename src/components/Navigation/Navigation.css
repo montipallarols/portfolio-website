@@ -17,7 +17,7 @@
 }
 
 .logo {
-  font-size: 1.5em !important;
+  font-size: 1.5rem !important;
   font-weight: bolder;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
@@ -35,6 +35,11 @@
   -ms-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
   -o-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
   text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 0.9rem !important;
 }
 
 .nav-link:hover {

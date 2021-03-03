@@ -29,7 +29,7 @@
 }
 
 .logo {
-  font-size: 1.5em !important;
+  font-size: 1.5rem !important;
   font-weight: bolder;
   @include transition(0.5s ease-in-out);
   @include textShadow((0 0 0 transparent, 0 0 0 transparent));
@@ -41,6 +41,8 @@
 }
 
 .nav-link {
+  text-transform: uppercase;
+  font-size: 0.9rem !important;
   &:hover {
     @include hoverLink();
   }
