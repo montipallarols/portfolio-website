@@ -14,7 +14,7 @@ export default function Navigation() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav style={{ width: "23%" }} fill className="ml-auto">
+        <Nav fill className="ml-auto">
           <NavbarItem path="/" linkText="Home" />
           <NavbarItem path="/about" linkText="About" />
 

@@ -51,6 +51,12 @@
   grid-column: 2/3;
 }
 
+@media screen and (max-width: 750px) {
+  .greenshop {
+    margin-left: -20px;
+  }
+}
+
 .help {
   background-color: #ebf4f2 !important;
   -ms-grid-column: 3;
@@ -71,6 +77,12 @@
 .help img {
   width: 40%;
   height: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .help {
+    margin-left: -20px;
+  }
 }
 
 .card-content {

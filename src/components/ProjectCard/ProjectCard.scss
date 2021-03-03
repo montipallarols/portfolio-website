@@ -40,6 +40,9 @@
 .greenshop {
   background-color: lighten($earth-green, 15%) !important;
   grid-column: 2/3;
+  @include mobile {
+    margin-left: -20px;
+  }
 }
 
 .help {
@@ -54,6 +57,9 @@
   img {
     width: 40%;
     height: auto;
+  }
+  @include mobile {
+    margin-left: -20px;
   }
 }
 
