@@ -54,5 +54,15 @@
 .nav-link {
   text-transform: uppercase;
   font-size: 0.9rem !important;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  -webkit-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+  -moz-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+  -ms-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+  -o-text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
+  text-shadow: 0 0 10px #ff401a, 0 0 50px #ff9b1a;
 }
 /*# sourceMappingURL=Navigation.css.map */

@@ -36,7 +36,7 @@ export default function About() {
             <p>
               I'm a junior developer who decided to leave teaching behind to
               find out how computers use language instead. Soon after I started
-              experimenting with HTML, CSS and JavaScript I was hooked to what
+              experimenting with HTML, CSS and JavaScript I was hooked on what
               I'd found to be the perfect cognitive outlet with the right
               balance of logic, utility and creativity. It’s been a nonstop
               sprint ever since and I'm excited to keep growing and work on
