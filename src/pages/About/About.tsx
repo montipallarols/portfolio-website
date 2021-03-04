@@ -42,6 +42,11 @@ export default function About() {
               sprint ever since and I'm excited to keep growing and work on
               exciting and challenging projects.
             </p>
+
+            <p>
+              When I'm not coding I like to get outdoors and snap photographs of
+              whatever catches my attention in between bike rides and hikes.
+            </p>
             <div className="tech-skills">
               <Badge pill variant="secondary">
                 HTML
