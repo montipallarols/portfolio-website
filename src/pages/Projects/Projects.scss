@@ -24,11 +24,12 @@
 
   .project-cards {
     display: grid;
-    grid-row-gap: 20px;
+    grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    // grid-auto-rows: minmax(500px, auto);
+    // grid-auto-rows: 1fr;
+
     padding: 0 30px;
-    @include mobile {
+    @include tablet {
       grid-template-columns: 1fr;
       grid-gap: 20px;
       padding: 0 20px;

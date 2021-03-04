@@ -28,19 +28,13 @@ export default function Projects() {
           <div className="project-cards">
             {projects.map((p, index) => {
               return (
-                <a
-                  className="card-link"
-                  href={p.github}
-                  target="_blank"
-                  key={index}
-                >
-                  <ProjectCard
-                    class={p.class}
-                    title={p.title}
-                    content={p.content}
-                    image={p.image}
-                  />
-                </a>
+                <ProjectCard
+                  class={p.class}
+                  github={p.github}
+                  title={p.title}
+                  content={p.content}
+                  image={p.image}
+                />
               );
             })}
           </div>

@@ -6,6 +6,7 @@
   box-shadow: $card-shadow;
   transition: 0.2s;
   border-style: none !important;
+  background-color: darken($newspaper, 0%) !important;
 
   &:hover {
     box-shadow: $card-shadow-hover;
@@ -31,37 +32,14 @@
   }
 }
 
-.slacker {
-  background-color: $newspaper !important;
-  // grid-column: 1/2;
-}
-
-.greenshop {
-  background-color: lighten($earth-green, 15%) !important;
-  // grid-column: 2/3;
-  @include mobile {
-    margin-left: -20px;
-  }
-}
-
 .help {
-  background-color: lighten($light-blue-green, 10%) !important;
-  // grid-column: 1/2;
-  // grid-row: 2/3;
-
   img {
-    width: 40%;
+    width: 30%;
     height: auto;
   }
-  @include mobile {
-    margin-left: -20px;
-  }
-}
-
-.portfolio {
-  background-color: lighten($light-blue-green, 10%) !important;
-  // grid-column: 2/3;
-  // grid-row: 2/3;
+  // @include mobile {
+  //   margin-left: -20px;
+  // }
 }
 
 .card-content {
