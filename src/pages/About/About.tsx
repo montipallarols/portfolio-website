@@ -26,7 +26,7 @@ export default function About() {
         <div className="image-box">
           <img
             className="profile-image"
-            src="/images/mon-square.jpg"
+            src="/images/vietnam.jpg"
             alt="profile"
           />
         </div>
@@ -34,8 +34,8 @@ export default function About() {
           <h2>{intro}</h2>
           <div className="text-container">
             <p>
-              I'm a junior developer who decided to leave teaching behind to
-              find out how computers use language instead. Soon after I started
+              I'm a junior developer who decided to swap teaching language for
+              learning computer languages instead. Soon after I started
               experimenting with HTML, CSS and JavaScript I was hooked on what
               I'd found to be the perfect cognitive outlet with the right
               balance of logic, utility and creativity. It’s been a nonstop
@@ -76,7 +76,7 @@ export default function About() {
         <div className="image-box-2">
           <img
             className="profile-image-2"
-            src="/images/mon-square.jpg"
+            src="/images/vietnam.jpg"
             alt="profile"
           />
         </div>
