@@ -29,7 +29,9 @@ export default function Home() {
         <div className="profile-text">
           <h2>{intro}</h2>
           <div className="profile-intro">
-            <p>I'm Montaga, a Junior Full Stack Developer.</p>
+            <p>
+              I'm Montaga, a Junior Full Stack Developer based in Amsterdam.
+            </p>
             <a
               href="https://github.com/montipallarols"
               className="github"

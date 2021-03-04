@@ -11,7 +11,8 @@ export const projects = [
   {
     class: "card greenshop",
     title: "Greenshop",
-    content: "An e-commerce site for eco-friendly products.",
+    content:
+      "An e-commerce site for eco-friendly products built with React-Redux.",
     tech: ["React", "Redux", "Sequelize"],
     image: "images/project-images/Greenshop.png",
     github: "https://github.com/montipallarols/webshop-frontend",

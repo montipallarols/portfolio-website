@@ -9,8 +9,10 @@
 .profile {
   margin: 30px 120px;
   display: flex;
+  max-width: 70%;
   @include tablet {
     margin: 30px;
+    max-width: 100%;
   }
   @include mobile {
     display: block;
@@ -51,11 +53,11 @@
 
     .profile-intro {
       box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-      font-size: 1.2rem;
-      padding: 44px;
+      font-size: 1.1rem;
+      padding: 44px 60px;
       background-color: darken($earth-green, 10%);
       @include mobile {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: 40px 15px;
       }
 
