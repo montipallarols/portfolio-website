@@ -1,21 +1,5 @@
 @import "../../scss/style.scss";
 
-@mixin transition($transition) {
-  -webkit-transition: $transition;
-  -moz-transition: $transition;
-  -ms-transition: $transition;
-  -o-transition: $transition;
-  transition: $transition;
-}
-
-@mixin textShadow($text-shadow) {
-  -webkit-text-shadow: $text-shadow;
-  -moz-text-shadow: $text-shadow;
-  -ms-text-shadow: $text-shadow;
-  -o-text-shadow: $text-shadow;
-  text-shadow: $text-shadow;
-}
-
 .navbar {
   background-color: white;
   font-family: "Montserrat", sans-serif;
