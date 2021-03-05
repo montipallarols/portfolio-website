@@ -4,7 +4,7 @@
 
 My personal website where I showcase the projects that I have worked on so far. 
 
-<img width="1272" alt="Screen Shot 2021-03-02 at 20 27 05" src="https://user-images.githubusercontent.com/64054997/109703466-cb888f00-7b95-11eb-902e-5334d1c99038.png">
+<img width="1276" alt="Screen Shot 2021-03-03 at 20 05 43" src="https://user-images.githubusercontent.com/64054997/110175856-b4020e00-7e02-11eb-8da3-c4d2dc44c55e.png">
 
 # Getting Started with Create React App
 
