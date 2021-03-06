@@ -25,6 +25,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 30px;
     @include tablet {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include mobile {
       grid-template-columns: 1fr;
       padding: 0 20px;
     }

@@ -9,6 +9,7 @@
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-style: none !important;
+  background-color: #ebeae9 !important;
 }
 
 .card:hover {
@@ -35,37 +36,9 @@
   width: 100%;
 }
 
-.slacker {
-  background-color: #ebeae9 !important;
-}
-
-.greenshop {
-  background-color: #e6ece5 !important;
-}
-
-@media screen and (max-width: 750px) {
-  .greenshop {
-    margin-left: -20px;
-  }
-}
-
-.help {
-  background-color: #ebf4f2 !important;
-}
-
 .help img {
-  width: 40%;
+  width: 30%;
   height: auto;
-}
-
-@media screen and (max-width: 750px) {
-  .help {
-    margin-left: -20px;
-  }
-}
-
-.portfolio {
-  background-color: #ebf4f2 !important;
 }
 
 .card-content {
