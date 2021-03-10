@@ -39,8 +39,8 @@ export default function About() {
               experimenting with HTML, CSS and JavaScript I was hooked on what
               I'd found to be the perfect cognitive outlet with the right
               balance of logic, utility and creativity. It’s been a nonstop
-              sprint ever since and I'm excited to keep growing and work on
-              exciting and challenging projects.
+              sprint ever since and I'm excited to keep growing and give 110%
+              every day to work on challenging and meaningful projects.
             </p>
 
             <p>
