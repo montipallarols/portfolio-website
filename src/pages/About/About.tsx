@@ -43,10 +43,6 @@ export default function About() {
               every day to work on challenging and meaningful projects.
             </p>
 
-            <p>
-              When I'm not coding I like to get outdoors and snap photographs of
-              whatever catches my attention in between bike rides and hikes.
-            </p>
             <div className="tech-skills">
               <Badge pill variant="secondary">
                 HTML
